@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-obsidian: #070A0F;
+  --color-graphite: #141A23;
+  --color-graphite-elevated: #1C2430;
+  --color-graphite-border: #2A3649;
+  --color-electric-cyan: #4DEBFF;
+  --color-acid-lime: #C8FF5F;
+  --color-soft-white: #EAF2F8;
+  --color-muted-steel: #8C9CAE;
+}

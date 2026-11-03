@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECHFEST ’26 | IIT Bombay — Beyond Human. Beyond Machine.</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="TECHFEST ’26 | IIT Bombay — Beyond Human. Beyond Machine.">
+  <meta name="description" content="Explore Techfest ’26, IIT Bombay (16–18 December 2026). The signature CYBORG concept landing page bridging human intelligence and machine precision. Discover exhibitions, competitions, workshops, and official registration.">
+  <meta name="keywords" content="Techfest 2026, IIT Bombay, Techfest IIT Bombay, Cyborg, Robotics, Asia Largest Science and Technology Festival, Mumbai, Engineering">
+  <meta name="author" content="Independent Creative Study for Techfest '26">
+  <meta name="theme-color" content="#070A0F">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://techfest.org">
+  <meta property="og:title" content="TECHFEST ’26 | IIT Bombay — Beyond Human. Beyond Machine.">
+  <meta property="og:description" content="Explore the frontier of human ingenuity, robotics, and emerging technology at IIT Bombay, 16–18 December 2026.">
+  <meta property="og:image" content="/assets/cyborg_hero.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://techfest.org">
+  <meta property="twitter:title" content="TECHFEST ’26 | IIT Bombay — Beyond Human. Beyond Machine.">
+  <meta property="twitter:description" content="Explore the frontier of human ingenuity, robotics, and emerging technology at IIT Bombay, 16–18 December 2026.">
+  <meta property="twitter:image" content="/assets/cyborg_hero.jpg">
+
+  <!-- Preload Critical Hero Image -->
+  <link rel="preload" as="image" href="/assets/cyborg_hero.jpg" fetchpriority="high">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/src/styles/main.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       1. SLIM STICKY NAVIGATION
+       ====================================================================== -->
+  <header id="main-nav" class="nav-header">
+    <div class="container nav-container">
+      
+      <!-- Brand Wordmark -->
+      <a href="#hero" class="nav-brand" aria-label="Techfest 2026 Home">
+        <div class="brand-logo-mark">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 17L12 22L22 17" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 12L12 17L22 12" stroke="#C8FF5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">TECHFEST<span class="brand-accent">’26</span></span>
+          <span class="brand-sub">IIT BOMBAY · MUMBAI</span>
+        </div>
+      </a>
+
+      <!-- Telemetry Status Pill (Desktop) -->
+      <div class="nav-status-pill d-none-mobile">
+        <span class="status-dot"></span>
+        <span class="status-text">DEC 16–18, 2026 · SYSTEM OPTIMAL</span>
+      </div>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-desktop-menu d-none-mobile" aria-label="Main Navigation">
+        <a href="#about" class="desktop-nav-link">About</a>
+        <a href="#experiences" class="desktop-nav-link">Experiences</a>
+        <a href="#interface" class="desktop-nav-link">Interface</a>
+        <a href="#plan" class="desktop-nav-link">Plan Visit</a>
+        <a href="#faq" class="desktop-nav-link">FAQ</a>
+      </nav>
+
+      <!-- CTA & Mobile Trigger -->
+      <div class="nav-actions">
+        <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="btn-primary nav-cta d-none-mobile">
+          <span>Official Site</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </a>
+
+        <!-- Mobile Menu Trigger -->
+        <button id="mobile-menu-btn" class="mobile-toggle-btn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobile-drawer">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Overlay -->
+  <div id="mobile-drawer" class="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-drawer-content">
+      <div class="mobile-drawer-header">
+        <div class="brand-text">
+          <span class="brand-title">TECHFEST<span class="brand-accent">’26</span></span>
+          <span class="brand-sub">IIT BOMBAY</span>
+        </div>
+        <button id="mobile-drawer-close" class="mobile-drawer-close" aria-label="Close Navigation Menu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="mobile-drawer-body">
+        <nav class="mobile-nav-links" aria-label="Mobile Navigation Links">
+          <a href="#about" class="mobile-nav-link">
+            <span class="mobile-num">01</span>
+            <span class="mobile-label">About The Concept</span>
+          </a>
+          <a href="#experiences" class="mobile-nav-link">
+            <span class="mobile-num">02</span>
+            <span class="mobile-label">Experience Directory</span>
+          </a>
+          <a href="#interface" class="mobile-nav-link">
+            <span class="mobile-num">03</span>
+            <span class="mobile-label">Explore Interface</span>
+          </a>
+          <a href="#plan" class="mobile-nav-link">
+            <span class="mobile-num">04</span>
+            <span class="mobile-label">Plan Your Visit</span>
+          </a>
+          <a href="#faq" class="mobile-nav-link">
+            <span class="mobile-num">05</span>
+            <span class="mobile-label">FAQ & Pathways</span>
+          </a>
+        </nav>
+
+        <div class="mobile-drawer-footer">
+          <div class="mobile-telemetry">
+            <span class="hud-mono">COORDINATES: 19.1334° N, 72.9133° E</span>
+            <span class="hud-mono">DATES: 16–18 DECEMBER 2026</span>
+          </div>
+          <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="btn-primary w-full">
+            <span>Visit Official Techfest</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ======================================================================
+       2. HERO — THE SIGNATURE MOMENT
+       ====================================================================== -->
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        
+        <!-- Left Column: Identity, Copy & CTAs -->
+        <div class="hero-content">
+          
+          <div class="hero-eyebrow-wrapper">
+            <span class="hud-tag">TECHFEST ’26 / IIT BOMBAY</span>
+            <span class="hero-concept-badge">CREATIVE STUDY // CYBORG</span>
+          </div>
+
+          <h1 class="hero-headline">
+            THE NEXT<br>
+            <span class="text-gradient-cyan">EVOLUTION</span><br>
+            STARTS HERE.
+          </h1>
+
+          <p class="hero-tagline">
+            “CYBORG — Beyond Human. Beyond Machine.”
+          </p>
+
+          <p class="hero-description">
+            Explore the frontier of human ingenuity, robotics, and emerging technology. Enter Asia’s largest science and technology festival where biological imagination converges with synthetic precision.
+          </p>
+
+          <!-- Confirmed Event Line & Technical Metadata -->
+          <div class="hero-event-metadata">
+            <div class="metadata-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span><strong>16–18 December 2026</strong></span>
+            </div>
+            <div class="metadata-separator">/</div>
+            <div class="metadata-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C8FF5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span><strong>IIT Bombay, Powai, Mumbai</strong></span>
+            </div>
+            <div class="metadata-separator">/</div>
+            <div class="metadata-item hud-mono-sm">
+              <span>19.1334° N, 72.9133° E</span>
+            </div>
+          </div>
+
+          <!-- Dual Primary CTAs -->
+          <div class="hero-cta-group">
+            <a href="#experiences" class="btn-primary hero-btn">
+              <span>Explore Experiences</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </a>
+            <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="btn-secondary hero-btn">
+              <span>Visit Official Techfest</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Real-Time Countdown Telemetry Widget -->
+          <div class="hero-countdown-box hud-bracket">
+            <div class="countdown-header">
+              <span class="countdown-label">// T-MINUS TO CONVERGENCE</span>
+              <span class="countdown-edition">DEC 16, 2026 · 09:00 IST</span>
+            </div>
+            <div class="countdown-grid">
+              <div class="countdown-cell">
+                <span id="cd-days" class="cd-value">00</span>
+                <span class="cd-label">DAYS</span>
+              </div>
+              <div class="countdown-colon">:</div>
+              <div class="countdown-cell">
+                <span id="cd-hours" class="cd-value">00</span>
+                <span class="cd-label">HOURS</span>
+              </div>
+              <div class="countdown-colon">:</div>
+              <div class="countdown-cell">
+                <span id="cd-mins" class="cd-value">00</span>
+                <span class="cd-label">MINUTES</span>
+              </div>
+              <div class="countdown-colon">:</div>
+              <div class="countdown-cell">
+                <span id="cd-secs" class="cd-value">00</span>
+                <span class="cd-label">SECONDS</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Striking Cyborg Artwork & Precision Telemetry Frame -->
+        <div class="hero-visual-wrapper">
+          <div id="hero-artwork-frame" class="hero-artwork-card hud-bracket titanium-panel light-sweep-container">
+            
+            <!-- Image with explicit dimensions and high priority -->
+            <img 
+              src="/assets/cyborg_hero.jpg" 
+              alt="Cyborg mechanical bust embodying convergence of human intelligence and precision titanium robotics"
+              class="hero-artwork-image"
+              width="600"
+              height="600"
+              fetchpriority="high"
+            >
+
+            <!-- Cyan Optic Reticle Pulsing Over the Sensor Eye -->
+            <div class="optic-reticle hero-optic-target" aria-hidden="true"></div>
+
+            <!-- Technical Annotations (Non-intrusive) -->
+            <div class="hud-annotation anno-top-right">
+              <div class="anno-pill">
+                <span class="anno-dot"></span>
+                <span>OPTIC_MATRIX // MK-VI [ONLINE]</span>
+              </div>
+            </div>
+
+            <div class="hud-annotation anno-top-left">
+              <div class="anno-pill">
+                <span>TELEMETRY // CONVERGENCE ESTABLISHED</span>
+              </div>
+            </div>
+
+            <div class="hud-annotation anno-bottom-left">
+              <div class="anno-pill">
+                <span>CHASSIS // BRUSHED TITANIUM 6AL-4V</span>
+              </div>
+            </div>
+
+            <div class="hud-annotation anno-bottom-right">
+              <div class="anno-pill">
+                <span class="anno-lime-dot"></span>
+                <span>NEURAL INTEGRATION // 98.4% NOMINAL</span>
+              </div>
+            </div>
+
+            <!-- Subtle Crosshair Overlay Elements -->
+            <div class="crosshair crosshair-tl" aria-hidden="true">+</div>
+            <div class="crosshair crosshair-tr" aria-hidden="true">+</div>
+            <div class="crosshair crosshair-bl" aria-hidden="true">+</div>
+            <div class="crosshair crosshair-br" aria-hidden="true">+</div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         3. EVENT INFORMATION STRIP
+         ====================================================================== -->
+    <div class="event-strip-wrapper">
+      <div class="container">
+        <div class="event-strip-grid hud-bracket">
+          
+          <div class="strip-item">
+            <span class="strip-mono-label">// DATES CONFIRMED</span>
+            <span class="strip-value">16–18 DECEMBER 2026</span>
+            <span class="strip-sub">Annual 3-Day Technical Convergence</span>
+          </div>
+
+          <div class="strip-separator"></div>
+
+          <div class="strip-item">
+            <span class="strip-mono-label">// VENUE COORDINATES</span>
+            <span class="strip-value">IIT BOMBAY, MUMBAI</span>
+            <span class="strip-sub">Main Campus, Powai · 19.1334° N, 72.9133° E</span>
+          </div>
+
+          <div class="strip-separator"></div>
+
+          <div class="strip-item">
+            <span class="strip-mono-label">// CREATIVE THEME</span>
+            <span class="strip-value text-cyan">CYBORG CONVERGENCE</span>
+            <span class="strip-sub">Human Reason × Machine Accuracy</span>
+          </div>
+
+          <div class="strip-separator"></div>
+
+          <div class="strip-item">
+            <span class="strip-mono-label">// ACCESS PROTOCOL</span>
+            <span class="strip-value text-lime">OPEN OFFICIAL PORTAL</span>
+            <span class="strip-sub">Student & General Pathways via techfest.org</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ======================================================================
+         4. ABOUT — HUMAN × MACHINE
+         ====================================================================== -->
+    <section id="about" class="section-padding about-section">
+      <div class="container">
+        
+        <!-- Section Header -->
+        <div class="section-header">
+          <div class="hud-tag">// 01 · FOUNDATIONAL PREMISE</div>
+          <h2 class="section-title">
+            WHERE BIOLOGICAL INGENUITY<br>
+            <span class="text-gradient-cyan">CONVERGES WITH SYNTHETIC MASTERY</span>.
+          </h2>
+          <p class="section-description">
+            The creative concept for Techfest ’26 reflects a turning point in history: the threshold where human adaptability, ethical intuition, and scientific imagination unify with autonomous robotics and deterministic computation.
+          </p>
+        </div>
+
+        <!-- Split Progressive Composition -->
+        <div class="about-grid">
+          
+          <!-- Left Column: 3 Pillar Telemetry Cards -->
+          <div class="about-pillars">
+            
+            <div class="pillar-card hud-bracket">
+              <div class="pillar-header">
+                <span class="pillar-num">01 // COGNITION</span>
+                <span class="pillar-badge badge-cyan">ORGANIC ORIGIN</span>
+              </div>
+              <h3 class="pillar-title">Human Intelligence & Vision</h3>
+              <p class="pillar-text">
+                Visionary scientific curiosity, ethical governance, and creative leap. Technology is guided by human purpose, solving global dilemmas through empathy and unscripted problem-solving.
+              </p>
+              <div class="pillar-footer">
+                <span class="hud-mono-xs">ATTRIBUTES: ETHICS · ABSTRACT REASONING · INTUITION</span>
+              </div>
+            </div>
+
+            <div class="pillar-card hud-bracket">
+              <div class="pillar-header">
+                <span class="pillar-num">02 // PRECISION</span>
+                <span class="pillar-badge badge-lime">SYNTHETIC MATRIX</span>
+              </div>
+              <h3 class="pillar-title">Machine Accuracy & Robotics</h3>
+              <p class="pillar-text">
+                Deterministic algorithmic speed, millimeter-precise robotics kinematics, and high-frequency sensor fusion capable of operating in hostile, deep-space, or micro-scale environments.
+              </p>
+              <div class="pillar-footer">
+                <span class="hud-mono-xs">ATTRIBUTES: DETERMINISM · SUB-MILLIMETER KINEMATICS · SCALE</span>
+              </div>
+            </div>
+
+            <div class="pillar-card hud-bracket">
+              <div class="pillar-header">
+                <span class="pillar-num">03 // SYNTHESIS</span>
+                <span class="pillar-badge badge-cyan">THE CYBORG NEXUS</span>
+              </div>
+              <h3 class="pillar-title">Symbiotic Future</h3>
+              <p class="pillar-text">
+                The convergence zone where bionic prosthetics restore human mobility, neural interfaces accelerate communication, and AI serves as a cognitive exoskeleton for global innovators.
+              </p>
+              <div class="pillar-footer">
+                <span class="hud-mono-xs">ATTRIBUTES: BIO-NEURAL COUPLING · SENSORY AUGMENTATION</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Interactive Neural Schematic -->
+          <div class="about-schematic-wrapper">
+            <div class="schematic-card hud-bracket titanium-panel">
+              
+              <div class="schematic-header">
+                <div class="schematic-title-group">
+                  <span class="hud-mono-xs">// BLUEPRINT: NEURAL-TO-CIRCUIT CONVERGENCE</span>
+                  <span class="schematic-status">SIMULATED ARCHITECTURE</span>
+                </div>
+                <div class="schematic-probe-selector" role="group" aria-label="Select Probe Hotspot">
+                  <button class="schematic-probe probe-active" data-probe="synapse" aria-pressed="true">Probe A</button>
+                  <button class="schematic-probe" data-probe="transition" aria-pressed="false">Probe B</button>
+                  <button class="schematic-probe" data-probe="silicon" aria-pressed="false">Probe C</button>
+                </div>
+              </div>
+
+              <div class="schematic-image-container">
+                <img 
+                  src="/assets/neural_schematic.jpg" 
+                  alt="Futuristic neural to circuit convergence diagram showing biological synapses transitioning into silicon microchip architecture"
+                  class="schematic-image"
+                  loading="lazy"
+                  width="800"
+                  height="450"
+                >
+              </div>
+
+              <!-- Live Probe Telemetry Display -->
+              <div class="schematic-telemetry-readout">
+                <div class="readout-header">
+                  <span class="readout-tag">// ACTIVE PROBE TELEMETRY</span>
+                  <span id="probe-rate" class="readout-rate">99.1% Fidelity</span>
+                </div>
+                <h4 id="probe-title" class="readout-title">Biological Synaptic Node</h4>
+                <p id="probe-desc" class="readout-desc">Organic neuronal junction transmitting neurochemical potentials with micro-millivolt sensitivity.</p>
+                <div class="readout-meta">
+                  <span class="readout-meta-label">THROUGHPUT:</span>
+                  <span id="probe-bw" class="readout-meta-val">2.4 Giga-Synapses/sec</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         5. EXPERIENCE DIRECTORY
+         ====================================================================== -->
+    <section id="experiences" class="section-padding experiences-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="hud-tag">// 02 · DISCOVERY DIRECTORY</div>
+          <h2 class="section-title">
+            EXPLORE THE <span class="text-gradient-cyan">SPECTRUM</span>.
+          </h2>
+          <p class="section-description">
+            Six broad discovery categories designed to navigate the multi-faceted programming of Techfest ’26. Verified guidelines and team registration are hosted exclusively on the official portal.
+          </p>
+        </div>
+
+        <!-- Editorial Asymmetric Grid -->
+        <div class="experience-grid">
+          
+          <!-- Card 1: Robotics & Global Exhibitions (Featured Large 2-col) -->
+          <article class="exp-card card-featured hud-bracket">
+            <div class="exp-card-header">
+              <div class="exp-code-pill">[VCTR_01]</div>
+              <span class="exp-badge badge-lime">Flagship Exhibition Vector</span>
+            </div>
+            
+            <div class="exp-card-body">
+              <div class="exp-icon-box">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="11" width="18" height="10" rx="2"></rect>
+                  <circle cx="12" cy="5" r="2"></circle>
+                  <path d="M12 7v4"></path>
+                  <line x1="8" y1="16" x2="8" y2="16"></line>
+                  <line x1="16" y1="16" x2="16" y2="16"></line>
+                </svg>
+              </div>
+              
+              <h3 class="exp-title">Robotics & International Exhibitions</h3>
+              <p class="exp-text">
+                Witness cutting-edge international robotics, bionic mobility systems, humanoid mechanics, autonomous planetary rovers, and defense engineering demonstrations presented by premier labs and innovators across the world.
+              </p>
+
+              <div class="exp-tags">
+                <span class="exp-tag">Autonomous Mobile Units</span>
+                <span class="exp-tag">Bionic Exoskeletons</span>
+                <span class="exp-tag">Aerospace Mechanics</span>
+                <span class="exp-tag">Humanoid Research</span>
+              </div>
+            </div>
+
+            <div class="exp-card-footer">
+              <span class="exp-note">SCHEDULE ANNOUNCED ON TECHFEST.ORG</span>
+              <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="exp-link">
+                <span>Official Exhibition Info</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Competitions (Tall Card) -->
+          <article class="exp-card card-tall hud-bracket">
+            <div class="exp-card-header">
+              <div class="exp-code-pill">[VCTR_02]</div>
+              <span class="exp-badge badge-cyan">Championship Arenas</span>
+            </div>
+            
+            <div class="exp-card-body">
+              <div class="exp-icon-box">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C8FF5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+
+              <h3 class="exp-title">Technical Competitions</h3>
+              <p class="exp-text">
+                Multi-tiered engineering arenas testing mechanical robustness, algorithm efficiency, and autonomous agility. Compete against the sharpest student minds in Asia.
+              </p>
+
+              <div class="exp-tags">
+                <span class="exp-tag">Combat Robowars</span>
+                <span class="exp-tag">Meshmerize Maze Solvers</span>
+                <span class="exp-tag">Aeromodelling</span>
+                <span class="exp-tag">Coding Hackathons</span>
+              </div>
+            </div>
+
+            <div class="exp-card-footer">
+              <span class="exp-note">REGISTER TEAMS ON OFFICIAL PORTAL</span>
+              <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="exp-link">
+                <span>Competition Guidelines</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: Hands-on Workshops -->
+          <article class="exp-card card-standard hud-bracket">
+            <div class="exp-card-header">
+              <div class="exp-code-pill">[VCTR_03]</div>
+              <span class="exp-badge">Technical Upskilling</span>
+            </div>
+            
+            <div class="exp-card-body">
+              <div class="exp-icon-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+
+              <h3 class="exp-title">Hands-on Workshops</h3>
+              <p class="exp-text">
+                Intensive practitioner masterclasses covering applied AI hardware, embedded IoT, edge computing, quantum principles, and bio-cybernetic interfaces.
+              </p>
+
+              <div class="exp-tags">
+                <span class="exp-tag">Edge AI Hardware</span>
+                <span class="exp-tag">Embedded Robotics</span>
+              </div>
+            </div>
+
+            <div class="exp-card-footer">
+              <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="exp-link">
+                <span>Registration Pathways</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4: Keynote Talks & Dialogues -->
+          <article class="exp-card card-standard hud-bracket">
+            <div class="exp-card-header">
+              <div class="exp-code-pill">[VCTR_04]</div>
+              <span class="exp-badge">Visionary Discourse</span>
+            </div>
+            
+            <div class="exp-card-body">
+              <div class="exp-icon-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C8FF5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </div>
+
+              <h3 class="exp-title">Keynote Talks & Dialogues</h3>
+              <p class="exp-text">
+                Hear directly from Nobel laureates, pioneering scientists, and deep-tech founders. Official speaker roster announced exclusively via official Techfest channels.
+              </p>
+
+              <div class="exp-tags">
+                <span class="exp-tag">Global Keynotes</span>
+                <span class="exp-tag">Research Colloquiums</span>
+              </div>
+            </div>
+
+            <div class="exp-card-footer">
+              <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="exp-link">
+                <span>Speaker Schedule</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 5: Technology Experiences -->
+          <article class="exp-card card-standard hud-bracket">
+            <div class="exp-card-header">
+              <div class="exp-code-pill">[VCTR_05]</div>
+              <span class="exp-badge">Interactive Zones</span>
+            </div>
+            
+            <div class="exp-card-body">
+              <div class="exp-icon-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                </svg>
+              </div>
+
+              <h3 class="exp-title">Sensory & Immersive Tech</h3>
+              <p class="exp-text">
+                Interactive spatial computing, haptic flight simulators, brainwave audio synthesizers, and laser-mapped installations distributed across the IIT Bombay campus.
+              </p>
+
+              <div class="exp-tags">
+                <span class="exp-tag">Mixed Reality (XR)</span>
+                <span class="exp-tag">Haptic Simulators</span>
+              </div>
+            </div>
+
+            <div class="exp-card-footer">
+              <a href="#plan" class="exp-link">
+                <span>Campus Zone Map</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 6: Innovation & Startup Alley -->
+          <article class="exp-card card-standard hud-bracket">
+            <div class="exp-card-header">
+              <div class="exp-code-pill">[VCTR_06]</div>
+              <span class="exp-badge">R&D Prototypes</span>
+            </div>
+            
+            <div class="exp-card-body">
+              <div class="exp-icon-box">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C8FF5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="6" y1="3" x2="6" y2="15"></line>
+                  <circle cx="18" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M18 9a9 9 0 0 1-9 9"></path>
+                </svg>
+              </div>
+
+              <h3 class="exp-title">Innovation & Startup Alley</h3>
+              <p class="exp-text">
+                Patented student research, university spin-offs, and early deep-tech ventures showcasing hardware prototypes seeking research collaboration and investment.
+              </p>
+
+              <div class="exp-tags">
+                <span class="exp-tag">Deep-Tech Prototypes</span>
+                <span class="exp-tag">Student Research</span>
+              </div>
+            </div>
+
+            <div class="exp-card-footer">
+              <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="exp-link">
+                <span>Submit Research / Pitch</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         6. INTERACTIVE CYBORG MODULE — "EXPLORE THE INTERFACE"
+         ====================================================================== -->
+    <section id="interface" class="section-padding interface-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="hud-tag">// 03 · INTERACTIVE CONCEPT EXHIBIT</div>
+          <h2 class="section-title">
+            EXPLORE THE <span class="text-gradient-cyan">INTERFACE</span>.
+          </h2>
+          <p class="section-description">
+            Deconstruct the cybernetic architecture. Select a subsystem to examine its functional convergence and design inspiration. (Creative conceptual module).
+          </p>
+        </div>
+
+        <!-- Subsystem Selector Tabs -->
+        <div class="subsystem-tabs-wrapper" role="tablist" aria-label="Cyborg Subsystems">
+          <button class="subsystem-tab tab-active" data-subsystem="neural" role="tab" aria-selected="true" id="tab-neural">
+            <span class="tab-code">SYS-NC-01</span>
+            <span class="tab-name">Neural Core</span>
+          </button>
+          <button class="subsystem-tab" data-subsystem="optical" role="tab" aria-selected="false" id="tab-optical">
+            <span class="tab-code">SYS-OS-02</span>
+            <span class="tab-name">Optical System</span>
+          </button>
+          <button class="subsystem-tab" data-subsystem="mechanical" role="tab" aria-selected="false" id="tab-mechanical">
+            <span class="tab-code">SYS-MF-03</span>
+            <span class="tab-name">Mechanical Frame</span>
+          </button>
+        </div>
+
+        <!-- Interactive Module Console (Two Columns) -->
+        <div class="module-console-grid">
+          
+          <!-- Visual Viewport with Highlight Reticle -->
+          <div class="module-viewport-card hud-bracket titanium-panel">
+            <div class="viewport-header">
+              <span class="hud-mono-xs">// CYBORG ANATOMY TELEMETRY VIEWPORT</span>
+              <span class="viewport-live-tag">LIVE HUD LINK</span>
+            </div>
+
+            <div class="module-canvas-wrapper">
+              <img 
+                src="/assets/cyborg_hero.jpg" 
+                alt="Cyborg subsystem anatomy schematic"
+                class="module-canvas-image"
+                loading="lazy"
+                width="600"
+                height="600"
+              >
+
+              <!-- Dynamic Highlight Reticle Box moving to highlighted subsystem -->
+              <div id="module-reticle" class="module-highlight-reticle" aria-hidden="true">
+                <div class="reticle-corner r-tl"></div>
+                <div class="reticle-corner r-tr"></div>
+                <div class="reticle-corner r-bl"></div>
+                <div class="reticle-corner r-br"></div>
+                <div class="reticle-label">TARGET LOCKED</div>
+              </div>
+            </div>
+
+            <div class="viewport-footer">
+              <span class="hud-mono-xs">SURFACE: TITANIUM 6AL-4V / CARBON COMPOSITE</span>
+              <span class="hud-mono-xs">REFRESH: 960 HZ REALTIME</span>
+            </div>
+          </div>
+
+          <!-- Subsystem Telemetry & Design Inspiration Readout -->
+          <div class="module-telemetry-card hud-bracket">
+            
+            <div class="telemetry-card-header">
+              <div>
+                <span id="subsystem-code" class="hud-mono text-cyan">// SYS-NC-01</span>
+                <h3 id="subsystem-title" class="subsystem-title-text">Neural Core</h3>
+                <span id="subsystem-subtitle" class="subsystem-sub-text">Synaptic Neuromorphic Processor</span>
+              </div>
+            </div>
+
+            <p id="subsystem-desc" class="subsystem-desc-text">
+              The synthetic brain-computer nexus bridging organic cerebral neurotransmission with high-throughput silicon architecture. Processes thousands of high-bandwidth sensory inputs in real-time with sub-millisecond bio-latency.
+            </p>
+
+            <!-- Design Inspiration Callout Box -->
+            <div class="design-inspiration-box">
+              <div class="inspiration-header">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#C8FF5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                <span class="inspiration-label">DESIGN INSPIRATION</span>
+              </div>
+              <p id="subsystem-inspiration" class="inspiration-text">
+                Inspired by the human neocortex operating in tandem with neuromorphic silicon architectures, embodying the seamless balance of human intuition and deterministic machine reasoning.
+              </p>
+            </div>
+
+            <!-- Technical Specifications Table -->
+            <div class="subsystem-specs-box">
+              <div class="specs-title">// HARDWARE SPECIFICATIONS</div>
+              <div id="subsystem-specs" class="specs-grid">
+                <!-- Dynamically populated via src/app.js -->
+              </div>
+            </div>
+
+            <!-- Live Status Pills -->
+            <div class="subsystem-telemetry-box">
+              <div class="specs-title">// TELEMETRY SIGNALS</div>
+              <div id="subsystem-telemetry" class="telemetry-pills-row">
+                <!-- Dynamically populated via src/app.js -->
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         7. PLAN YOUR VISIT
+         ====================================================================== -->
+    <section id="plan" class="section-padding plan-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <div class="hud-tag">// 04 · LOGISTICS & CAMPUS ORIENTATION</div>
+          <h2 class="section-title">
+            PLAN YOUR <span class="text-gradient-cyan">CAMPUS JOURNEY</span>.
+          </h2>
+          <p class="section-description">
+            Confirmed event dates, verified campus coordinates, and official entry pathways for Techfest ’26 at IIT Bombay.
+          </p>
+        </div>
+
+        <div class="plan-grid">
+          
+          <!-- Left Column: Confirmed Venue & Official Registration Guide -->
+          <div class="plan-info-card hud-bracket">
+            
+            <div class="plan-card-section">
+              <span class="plan-meta-label">// CONFIRMED DATES & TIMINGS</span>
+              <h3 class="plan-h3">16–18 December 2026</h3>
+              <p class="plan-p">Daily campus arena doors open at 09:00 IST. Keynotes, championships, and evening showcases conclude by 21:30 IST.</p>
+            </div>
+
+            <div class="plan-card-section">
+              <span class="plan-meta-label">// VENUE LOCATION</span>
+              <h3 class="plan-h3">IIT Bombay, Powai, Mumbai</h3>
+              <p class="plan-p">
+                Indian Institute of Technology Bombay, Main Gate Road, Powai, Mumbai, Maharashtra 400076, India.<br>
+                <span class="hud-mono-xs text-cyan">COORDINATES: 19.1334° N, 72.9133° E</span>
+              </p>
+            </div>
+
+            <!-- Strict Factual Verification Warning -->
+            <div class="verification-alert">
+              <div class="alert-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C8FF5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+              </div>
+              <div class="alert-text">
+                <strong>OFFICIAL REGISTRATION NOTICE:</strong> All competitor registrations, visitor access passes, and workshop ticketing are handled exclusively via the official website (<strong>techfest.org</strong>). Do not rely on unverified third-party booking agents.
+              </div>
+            </div>
+
+            <div class="plan-actions">
+              <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="btn-primary">
+                <span>Official Registration Portal</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+              <a href="https://www.iitb.ac.in" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                <span>IIT Bombay Campus Guide</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Right Column: Stylized Campus Schematic Map HUD -->
+          <div class="plan-map-card hud-bracket titanium-panel">
+            <div class="map-card-header">
+              <span class="hud-mono-xs">// IIT BOMBAY CAMPUS SCHEMATIC [POWAI LAKE]</span>
+              <span class="map-status">ZONE MAP ACTIVE</span>
+            </div>
+
+            <div class="campus-svg-map-wrapper">
+              <svg viewBox="0 0 600 420" class="campus-schematic-svg" xmlns="http://www.w3.org/2000/svg" aria-label="IIT Bombay Campus schematic map showing key festival landmarks">
+                
+                <!-- Background Grid -->
+                <defs>
+                  <pattern id="hud-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+                    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(77, 235, 255, 0.08)" stroke-width="1"/>
+                  </pattern>
+                  <radialGradient id="lake-grad" cx="20%" cy="30%" r="70%">
+                    <stop offset="0%" stop-color="#141E2A" />
+                    <stop offset="100%" stop-color="#0A1017" />
+                  </radialGradient>
+                </defs>
+                <rect width="600" height="420" fill="url(#hud-grid)" />
+
+                <!-- Powai Lake Representation -->
+                <path d="M 10 40 Q 120 60, 200 130 T 260 280 Q 220 380, 10 410 Z" fill="url(#lake-grad)" stroke="#233547" stroke-width="1.5" />
+                <text x="60" y="210" fill="#4DEBFF" font-family="'JetBrains Mono', monospace" font-size="11" opacity="0.6" letter-spacing="2">POWAI LAKE SHORELINE</text>
+
+                <!-- Campus Road Arteries -->
+                <!-- Main Gate Road -->
+                <path d="M 580 340 L 360 260 L 290 190 L 320 110" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="3" stroke-dasharray="6,4" />
+                <!-- Spine Road -->
+                <path d="M 360 260 L 460 160 L 410 80" fill="none" stroke="rgba(77, 235, 255, 0.3)" stroke-width="2" />
+                <!-- Hillside Road -->
+                <path d="M 290 190 L 220 180" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2" />
+
+                <!-- Festival Landmark Nodes -->
+                <!-- Main Gate (Entry) -->
+                <g class="map-node" transform="translate(560, 335)">
+                  <circle r="7" fill="#4DEBFF" opacity="0.9" />
+                  <circle r="14" fill="none" stroke="#4DEBFF" stroke-width="1" opacity="0.4" />
+                  <text x="-120" y="5" fill="#EAF2F8" font-family="'Space Grotesk', sans-serif" font-weight="600" font-size="12">MAIN GATE [ENTRY]</text>
+                </g>
+
+                <!-- Convocation Hall (Keynotes) -->
+                <g class="map-node" transform="translate(360, 260)">
+                  <circle r="8" fill="#C8FF5F" />
+                  <circle r="16" fill="none" stroke="#C8FF5F" stroke-width="1" opacity="0.4" />
+                  <text x="22" y="4" fill="#C8FF5F" font-family="'Space Grotesk', sans-serif" font-weight="600" font-size="12">CONVOCATION HALL [KEYNOTES]</text>
+                </g>
+
+                <!-- Gymkhana Grounds (Robowars & Outdoor Arenas) -->
+                <g class="map-node" transform="translate(290, 190)">
+                  <circle r="9" fill="#4DEBFF" />
+                  <circle r="18" fill="none" stroke="#4DEBFF" stroke-width="1.5" opacity="0.5" />
+                  <text x="-185" y="-12" fill="#4DEBFF" font-family="'Space Grotesk', sans-serif" font-weight="600" font-size="12">GYMKHANA [ROBOTICS ARENAS]</text>
+                </g>
+
+                <!-- SAC (Workshops & Experiences) -->
+                <g class="map-node" transform="translate(460, 160)">
+                  <circle r="6" fill="#EAF2F8" />
+                  <circle r="12" fill="none" stroke="#EAF2F8" stroke-width="1" opacity="0.3" />
+                  <text x="18" y="4" fill="#EAF2F8" font-family="'Space Grotesk', sans-serif" font-weight="500" font-size="11">STUDENT ACTIVITY CTR (SAC)</text>
+                </g>
+
+                <!-- VMCC (International Exhibits) -->
+                <g class="map-node" transform="translate(320, 110)">
+                  <circle r="7" fill="#4DEBFF" />
+                  <circle r="14" fill="none" stroke="#4DEBFF" stroke-width="1" opacity="0.4" />
+                  <text x="-165" y="4" fill="#4DEBFF" font-family="'Space Grotesk', sans-serif" font-weight="600" font-size="11">VMCC [EXHIBITIONS EXPO]</text>
+                </g>
+
+                <!-- Compass Rose HUD -->
+                <g transform="translate(540, 60)">
+                  <line x1="0" y1="-20" x2="0" y2="20" stroke="#4DEBFF" stroke-width="1.5" />
+                  <line x1="-20" y1="0" x2="20" y2="0" stroke="#4DEBFF" stroke-width="1.5" />
+                  <text x="-4" y="-25" fill="#4DEBFF" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="bold">N</text>
+                  <circle r="16" fill="none" stroke="rgba(77,235,255,0.3)" stroke-width="1" />
+                </g>
+
+                <!-- Map Legend -->
+                <g transform="translate(20, 385)">
+                  <circle cx="5" cy="5" r="4" fill="#C8FF5F" />
+                  <text x="15" y="8" fill="#8C9CAE" font-family="'JetBrains Mono', monospace" font-size="9">KEYNOTE HALLS</text>
+                  <circle cx="110" cy="5" r="4" fill="#4DEBFF" />
+                  <text x="120" y="8" fill="#8C9CAE" font-family="'JetBrains Mono', monospace" font-size="9">ARENAS & EXPOS</text>
+                </g>
+
+              </svg>
+            </div>
+
+            <div class="map-card-footer">
+              <span class="hud-mono-xs">IIT BOMBAY POWAI CAMPUS · 550+ ACRE RESEARCH FACILITY</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         8. FAQ ACCORDION
+         ====================================================================== -->
+    <section id="faq" class="section-padding faq-section">
+      <div class="container container-narrow">
+        
+        <div class="section-header text-center">
+          <div class="hud-tag">// 05 · CLARIFICATIONS</div>
+          <h2 class="section-title">
+            FREQUENTLY ASKED <span class="text-gradient-cyan">QUESTIONS</span>.
+          </h2>
+          <p class="section-description mx-auto">
+            Verified event essentials and official pathways. For unconfirmed schedules or specific rules, refer to official IIT Bombay portals.
+          </p>
+        </div>
+
+        <div class="faq-accordion-list">
+          
+          <!-- Item 1 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-1">
+              <span>What is Techfest ’26?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="faq-ans-1" class="faq-content" hidden>
+              Techfest is the annual science and technology festival organized entirely by the student body of the Indian Institute of Technology (IIT) Bombay. Celebrated as Asia's premier science and technology festival, it attracts over 175,000 attendees annually, providing an open arena for competitive robotics, international research showcases, masterclasses, and keynote dialogues with world-renowned scientists.
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-2">
+              <span>Where and when does Techfest ’26 take place?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="faq-ans-2" class="faq-content" hidden>
+              Techfest ’26 is officially scheduled for <strong>16–18 December 2026</strong>. The entire festival is hosted on-campus at the <strong>Indian Institute of Technology Bombay</strong>, nestled between Powai Lake and the Sanjay Gandhi National Park hills in Powai, Mumbai, Maharashtra (Coordinates: 19.1334° N, 72.9133° E).
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-3">
+              <span>Where can I explore official competitions and workshop guidelines?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="faq-ans-3" class="faq-content" hidden>
+              All official problem statements, technical constraints, team composition rules, prize distributions, and workshop curricula are published directly and exclusively on the official Techfest website (<a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="link-cyan">techfest.org</a>). We recommend checking the official portal regularly as problem statements are progressively released throughout the autumn semester.
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-4">
+              <span>How do I find registration details, ticketing, and workshop entry fees?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="faq-ans-4" class="faq-content" hidden>
+              Historically, general admission to view the robotics arenas, scientific exhibitions, and keynote talks is complimentary for registered students holding valid institutional identification. Specific intensive hands-on workshops and competition entry slots involve official portal registration. Always verify pricing and register directly at <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="link-cyan">techfest.org</a>.
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false" aria-controls="faq-ans-5">
+              <span>Is this website the official Techfest site?</span>
+              <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div id="faq-ans-5" class="faq-content" hidden>
+              This website is an independent creative design campaign study presenting the “CYBORG — Beyond Human. Beyond Machine.” creative concept for Techfest ’26, IIT Bombay. It is designed to inspire attendees and route them seamlessly to verified official registration channels. It is not an official IIT Bombay publication.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         9. FINAL CTA AND FOOTER
+         ====================================================================== -->
+    <section class="final-cta-section">
+      <div class="container text-center">
+        <div class="final-cta-box hud-bracket titanium-panel">
+          
+          <div class="final-hud-tag">// THE NEXT EVOLUTION</div>
+          
+          <h2 class="final-cta-headline">
+            STEP INTO WHAT<br>
+            <span class="text-gradient-cyan">COMES NEXT</span>.
+          </h2>
+          
+          <p class="final-cta-sub">
+            Join thousands of researchers, engineers, and creators at IIT Bombay this 16–18 December 2026.
+          </p>
+
+          <div class="final-cta-buttons">
+            <a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="btn-primary btn-large">
+              <span>Access Official Techfest Portal</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+            <a href="#hero" class="btn-secondary btn-large">
+              <span>Back to Top ↑</span>
+            </a>
+          </div>
+
+          <div class="final-telemetry-stamp">
+            <span>COORDINATES: 19.1334° N, 72.9133° E</span>
+            <span>·</span>
+            <span>CAMPUS OF IIT BOMBAY</span>
+            <span>·</span>
+            <span class="text-lime">REV: 26.4.1 [ACTIVE]</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-top">
+        
+        <div class="footer-brand">
+          <div class="brand-logo-mark">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 17L12 22L22 17" stroke="#4DEBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M2 12L12 17L22 12" stroke="#C8FF5F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="brand-title">TECHFEST<span class="brand-accent">’26</span></div>
+            <div class="brand-sub">IIT BOMBAY, MUMBAI</div>
+          </div>
+          <p class="footer-brand-p">
+            Asia’s largest science and technology festival. Exploring the convergence of human reason and autonomous machinery.
+          </p>
+        </div>
+
+        <div class="footer-links-col">
+          <div class="footer-col-title">// FESTIVAL NAVIGATION</div>
+          <ul class="footer-links-list">
+            <li><a href="#about" class="footer-link">About Concept</a></li>
+            <li><a href="#experiences" class="footer-link">Experience Directory</a></li>
+            <li><a href="#interface" class="footer-link">Cyborg Interface</a></li>
+            <li><a href="#plan" class="footer-link">Plan Your Visit</a></li>
+            <li><a href="#faq" class="footer-link">Clarifications & FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <div class="footer-col-title">// VERIFIED SOURCES</div>
+          <ul class="footer-links-list">
+            <li><a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="footer-link link-cyan">Official Techfest Portal ↗</a></li>
+            <li><a href="https://www.iitb.ac.in" target="_blank" rel="noopener noreferrer" class="footer-link">IIT Bombay Official Site ↗</a></li>
+            <li><a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="footer-link">Team Registration Portal ↗</a></li>
+            <li><a href="https://techfest.org" target="_blank" rel="noopener noreferrer" class="footer-link">Competition Rulebooks ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-col">
+          <div class="footer-col-title">// TELEMETRY PROTOCOL</div>
+          <div class="footer-hud-stats">
+            <div class="stat-row">
+              <span class="stat-name">STATUS:</span>
+              <span class="stat-val text-lime">OPTIMAL</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-name">SECURITY:</span>
+              <span class="stat-val text-cyan">TLS 1.3 VERIFIED</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-name">EDITION:</span>
+              <span class="stat-val">29TH ITERATION</span>
+            </div>
+            <div class="stat-row">
+              <span class="stat-name">LOCATION:</span>
+              <span class="stat-val">POWAI, MUMBAI</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tech-divider"></div>
+
+      <!-- Discreet Concept Attribution Footer -->
+      <div class="footer-bottom">
+        <div class="attribution-text">
+          <p>
+            <strong>DISCREET CONCEPT ATTRIBUTION:</strong> This portal is an independent creative design study and campaign concept (“CYBORG — Beyond Human. Beyond Machine.”) designed for Techfest ’26, IIT Bombay. It is not an official IIT Bombay publication. All trademarks, official logos, and intellectual property belong to Techfest, IIT Bombay.
+          </p>
+        </div>
+        <div class="footer-copy-text">
+          © 2026 Techfest Concept Study · Built with precision engineering
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Application Script -->
+  <script src="/src/app.js"></script>
+</body>
+</html>
